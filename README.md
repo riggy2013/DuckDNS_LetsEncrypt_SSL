@@ -14,6 +14,12 @@ https://certbot.eff.org
 
 3. Use certbot to apply Let's Encrypt SSL certificate
 
+Download duck_auth.sh and duck_remove.sh, add your duckdns.org token in.
+
+    token=<DUCKDNS_TOKEN>
+
+Then run command:
+
     sudo certbot certonly --manual --preferred-challenges dns --manual-auth-hook ./duck_auth.sh --manul-cleanup-hook ./duck_remove.sh -d example.duckdns.org
   
 You will receive the below screen after several prompts:
