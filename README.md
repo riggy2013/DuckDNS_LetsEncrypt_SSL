@@ -20,7 +20,7 @@ Download duck_auth.sh and duck_remove.sh, add your duckdns.org token in.
 
 Then run command:
 
-    sudo certbot certonly --manual --preferred-challenges dns --manual-auth-hook ./duck_auth.sh --manul-cleanup-hook ./duck_remove.sh -d example.duckdns.org
+    sudo certbot certonly --manual --preferred-challenges dns --manual-auth-hook ./duck_auth.sh --manual-cleanup-hook ./duck_remove.sh -d example.duckdns.org
   
 You will receive the below screen after several prompts:
 
